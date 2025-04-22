@@ -6,11 +6,12 @@
 ```bash
 root/
 ├── eval_hmma.py                  #  Main entry point for evaluation (demo using random initialization)
-├── networks/
-│   └── hmma_networks.py          #  Network definition (Hybrid Mamba-Transformer)
 └── mava/
+    ├── networks/
+        └── hmma_networks.py          #  Network definition (Hybrid Mamba-Transformer)
     └── configs/
-        └── default_mtm.yaml      #  Hydra configuration (environment, model parameters, etc.)
+        └── default_mtm.yaml      #  Hydra configuration
+        └── mtm.yaml                  #  Network configuration
 ```
 
 ---
