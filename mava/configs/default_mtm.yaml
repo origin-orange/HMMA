@@ -1,0 +1,6 @@
+defaults:
+  - logger: mtm
+  - arch: anakin
+  - network: mtm
+  - env: smax
+  - _self_

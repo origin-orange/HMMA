@@ -1,0 +1,6 @@
+actor_network:
+  n_block: 2
+  n_embd: 128
+  latent_state_dim: 32
+  delta_rank: 128
+  conv_dim: 4
